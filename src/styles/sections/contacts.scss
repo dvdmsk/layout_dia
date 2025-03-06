@@ -80,6 +80,7 @@
 
     &:focus {
       border-bottom: 1px solid $btn-color;
+      background-color: $main-brown;
     }
 
     &--message {

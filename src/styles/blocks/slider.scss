@@ -18,7 +18,8 @@
     grid-column: 1 / -1;
     width: calc(100% + $mobile-padding * 2);
     left: -$mobile-padding;
-
+    max-width: 800px;
+    
     @include on-tablet {
       width: calc(100% + $tablet-padding * 2);
       left: -$tablet-padding;
